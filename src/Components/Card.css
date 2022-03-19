@@ -1,0 +1,36 @@
+.Card {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 450px;
+  background-color: rgb(152, 168, 184);
+  border-radius: 3%;
+  border: 0.5px solid rgb(152, 168, 184);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p {
+  font-size: xx-small;
+  object-fit: fill;
+  padding-bottom: 5px;
+  justify-content: space-around;
+}
+
+img {
+  object-fit: fill;
+  border-radius: 3%;
+  width: 150px;
+}
+.infos {
+  padding: 2px;
+  margin: 2px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding-bottom: 5px;
+}
+.head {
+  padding: 5px;
+  display: inline-flex;
+  gap: 120px;
+}
